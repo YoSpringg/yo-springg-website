@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-section {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.video-section h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    width: 90%;
+    height: 450px;
+    margin: 20px auto;
+    border: 3px solid red;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px red;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.teacher-section {
+    background-color: #222;
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.teacher-section h2 {
+    color: red;
+}
+
+footer {
+    background-color: red;
+    padding: 10px;
+}
+
+.learned {
+    background-color: #222;
+    padding: 25px;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.learned h2 {
+    color: red;
+}
+
+.learned p {
+    color: white;
+    font-size: 15px;
+}
